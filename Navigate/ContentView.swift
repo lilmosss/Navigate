@@ -16,6 +16,9 @@ struct ContentView: View {
                 NavigationLink(destination: Text("You've arrived to the Second View 🎊")) {
                     Text("Click me!")
                 }
+                NavigationLink(destination: Text("Welcome 🎊")) {
+                    Text("Hello!")
+                }
             }
         }
     }
